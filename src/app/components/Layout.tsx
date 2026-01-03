@@ -38,7 +38,13 @@ export const Layout = () => {
 
       {/* Footer */}
       <footer className="p-6 text-center text-sm text-white/60 bg-black/10 mt-auto">
-        <p>© 2025 Color Solution</p>
+        <p>© 2025 Color Solution. All rights reserved.</p>
+        <div className="mt-2 space-x-4">
+          <Link to="/privacy-policy" className="hover:underline">Privacy Policy</Link>
+          <Link to="/terms" className="hover:underline">Terms of Service</Link>
+          <Link to="/contact" className="hover:underline">Contact Us</Link>
+          <Link to="/about" className="hover:underline">About Us</Link>
+        </div>
       </footer>
     </div>
   );
