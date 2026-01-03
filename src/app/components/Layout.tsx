@@ -9,7 +9,7 @@ export const Layout = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#667EEA] to-[#764BA2] font-sans text-white flex flex-col w-full max-w-screen-xl mx-auto shadow-2xl overflow-hidden relative px-4 sm:px-6 lg:px-8">
       {/* Top Bar */}
-      <header className="flex items-center justify-between p-4 bg-black/20 backdrop-blur-sm sticky top-0 z-50">
+      <header className="flex items-center justify-between p-3 bg-black/20 backdrop-blur-sm sticky top-0 z-50">
         <div className="flex items-center gap-2">
           <div className="relative w-8 h-8 flex items-center justify-center">
              <Palette className="w-6 h-6 text-teal-400" />

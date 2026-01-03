@@ -1,3 +1,6 @@
 {
-    "mobile-preview.url": "http://localhost:5173/"
+    "mobile-preview.url": "http://localhost:5173/",
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false
 }
