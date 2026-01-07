@@ -1,5 +1,5 @@
 
-  # Build Color Solution Website
+  # Color Solution Website
 
   This is a code bundle for Build Color Solution Website. 
   ## Running the code
