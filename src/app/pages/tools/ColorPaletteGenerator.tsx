@@ -58,8 +58,15 @@ export const ColorPaletteGenerator = () => {
   return (
     <div className="px-6 py-8 pb-20 animate-in slide-in-from-right duration-500">
       <h2 className="text-2xl font-black text-white mb-6 uppercase tracking-tight text-center">
-        Palette Generator
+        Color Palette Generator
       </h2>
+      <p className="text-white/70 text-center text-sm mb-6 max-w-xs mx-auto">
+        Generate beautiful color palettes from a single color or image.
+        Perfect for branding, UI design, and creative projects.
+      </p>
+      <small>
+        Upload an image or enter a HEX color to get matching colors instantly.
+      </small>
 
       {/* Input Section */}
       <div className="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg mb-8">

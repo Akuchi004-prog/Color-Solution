@@ -62,3 +62,29 @@ button, a {
 :focus {
   outline-offset: 2px;
 }
+
+.tool-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.tool-header h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.tool-header p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-top: 0.4rem;
+}
+
+.tool-header small {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.65;
+  margin-top: 0.3rem;
+}
+.tool-section {
+  margin-bottom: 2rem;
+}

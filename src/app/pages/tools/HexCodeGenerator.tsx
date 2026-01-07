@@ -40,6 +40,13 @@ export const HexCodeGenerator = () => {
       <h2 className="text-2xl font-black text-white mb-6 uppercase tracking-tight text-center">
         HEX Extractor
       </h2>
+      <p className="text-white/70 text-center text-sm mb-6 max-w-xs mx-auto">
+        Extract accurate HEX color codes from images or generate them
+        from colors.
+      </p>
+      <small>
+        Upload an image or select a color to get its HEX value instantly.
+      </small>
 
       <div className="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg mb-8 text-center">
         <button 

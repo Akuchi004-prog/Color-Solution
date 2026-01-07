@@ -53,6 +53,12 @@ export const ColorNamer = () => {
       <h2 className="text-2xl font-black text-white mb-6 uppercase tracking-tight text-center">
         Color Namer
       </h2>
+      <p className="text-white/70 text-center text-sm mb-6 max-w-xs mx-auto">
+        Discover simple, human-friendly names for any color.
+      </p>
+      <small>
+        Upload an image or enter a color to get a close and recognizable name.
+      </small>
 
       <div className="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg mb-8">
         <label className="block text-sm font-bold text-white/80 mb-2">

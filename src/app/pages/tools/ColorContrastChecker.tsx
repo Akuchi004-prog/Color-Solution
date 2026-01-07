@@ -74,6 +74,9 @@ export const ColorContrastChecker = () => {
         Enter your text and text color. We’ll generate readable background color
         options automatically.
       </p>
+      <small>
+        Enter your text and text color to see compatible background colors.
+      </small>
 
       {/* Inputs */}
       <div className="bg-white/10 backdrop-blur-md p-6 rounded-3xl shadow-lg mb-8 space-y-4">

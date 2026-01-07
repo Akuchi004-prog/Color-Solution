@@ -22,8 +22,15 @@ export const ColorGradientGenerator = () => {
   return (
     <div className="px-6 py-8 pb-20 animate-in slide-in-from-right duration-500">
       <h2 className="text-2xl font-black text-white mb-6 uppercase tracking-tight text-center">
-        Gradient Generator
+        Color Gradient Generator
       </h2>
+      <p className="text-white/70 text-center text-sm mb-6 max-w-xs mx-auto">
+        Create smooth and modern color gradients for backgrounds, buttons,
+        and UI elements.
+      </p>
+      <small>
+        Generate gradients automatically from a color.
+      </small>
 
       {/* Preview */}
       <div 
